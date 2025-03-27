@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  height: 200vh; /* Makes the page scrollable */
+}
+
+/* 🔹 Relative Position */
+.relative-box {
+  position: relative;
+  background: lightblue;
+  padding: 10px;
+  width: 200px;
+  top: 20px; /* Moves it down */
+  left: 20px; /* Moves it right */
+}
+
+/* 🔹 Absolute Position */
+.absolute-box {
+  position: absolute;
+  background: lightcoral;
+  padding: 10px;
+  width: 200px;
+  top: 50px; /* Moves down from nearest positioned ancestor */
+  left: 50px; /* Moves right */
+}
+
+/* 🔹 Fixed Position */
+.fixed-box {
+  position: fixed;
+  background: lightgreen;
+  padding: 10px;
+  width: 200px;
+  top: 10px; /* Stays at the top */
+  right: 10px; /* Stays at the right */
+}
+
+/* 🔹 Sticky Position */
+.sticky-box {
+  position: sticky;
+  background: gold;
+  padding: 10px;
+  width: 200px;
+  top: 0px; /* Sticks to the top when scrolling */
+}
+
+/* Extra content to enable scrolling */
+.spacer {
+  height: 150vh; /* Creates enough space to scroll */
+}
