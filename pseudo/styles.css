@@ -1,0 +1,21 @@
+/* pseudo classes  */
+button:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+input:focus {
+  border: 2px solid red;
+  outline: none;
+}
+p:nth-child(2) {
+  color: green;
+}
+/* pseudo elements */
+h1::first-letter {
+  font-size: 30px;
+  color: red;
+}
+p::first-line {
+  font-weight: bold;
+}
